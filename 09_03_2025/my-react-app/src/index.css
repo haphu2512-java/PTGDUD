@@ -1,0 +1,90 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "body body"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+
+  
+
+}
+.container > div {
+  border: 1px solid gray;
+
+}
+.container > div.header {
+  display: flex;
+  grid-area: header;
+  justify-content: space-around;
+}
+
+.container > div.body {
+  grid-area: body;
+}
+
+
+.container > div.footer {
+  display: flex;
+  grid-area: footer;
+  background-color: rgba(2, 0, 14, 0.945);
+}
+li{
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+  color: white;
+}
+.rightH {
+    width: 60%;
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+}
+.leftH{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.rightH a{
+  text-decoration: none;
+  margin: 10px;
+}
+.linkH ul{
+  display: flex;
+}
+.leftH input{
+  width: 70%;
+}
+
+.leftF{
+  text-align: left;
+  color:white;
+  width: 50%;
+  margin-left: 30px;
+  
+}
+.rightF{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.btnH{
+  display: flex;
+}
+
+.rightF ul li{
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+  color: white;
+}
+
+.bodyDuoi{
+    display: flex;
+    justify-content: space-around;
+}
+.bodyDuoi ul li{
+  width: 20%;
+}
