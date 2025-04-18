@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  /* color: #333; */
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.text-white{
+  text-decoration: none;
+}
+
+button {
+  border-radius: 8px;
+}
+
+/* Footer specific */
+.footer-link {
+  color: #aaa;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
