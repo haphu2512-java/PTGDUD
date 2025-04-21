@@ -1,0 +1,14 @@
+.status-new {
+  color: #007bff;
+}
+.status-inprogress {
+  color: #ff8c00;
+}
+.status-completed {
+  color: #28a745;
+}
+.pagination .page-item.active .page-link {
+  background-color: #ff4d7d;
+  border-color: #ff4d7d;
+  color: white;
+}
