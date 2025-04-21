@@ -6,6 +6,7 @@ import sliceReducer from '../redux/cartSlice';
 import authReducer from '../redux/authSlice';
 import usersReducer   from '../redux/userSlice';
 import counterReducer2 from '../redux/counterSliceNangCao';
+import formReducer from '../redux/formSlice';
 
 
 export const store = configureStore({
@@ -17,5 +18,6 @@ export const store = configureStore({
     auth: authReducer,
     users:usersReducer,
     counter2:counterReducer2,
+    form:formReducer, 
   },
 });
