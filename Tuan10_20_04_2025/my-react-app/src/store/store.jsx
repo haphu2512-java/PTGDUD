@@ -3,6 +3,7 @@ import counterReducer from '../redux/counterSlice';
 import todoReducer from '../redux/todoSlice';
 import themeReducer from '../redux/themeSlice';
 import sliceReducer from '../redux/cartSlice';
+import authReducer from '../redux/authSlice';
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +11,6 @@ export const store = configureStore({
     todo: todoReducer,
     theme: themeReducer,
     cart:sliceReducer,
+    auth: authReducer,
   },
 });
