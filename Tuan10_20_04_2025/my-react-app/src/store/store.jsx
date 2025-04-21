@@ -7,7 +7,7 @@ import authReducer from '../redux/authSlice';
 import usersReducer   from '../redux/userSlice';
 import counterReducer2 from '../redux/counterSliceNangCao';
 import formReducer from '../redux/formSlice';
-
+import eventReducer from '../redux/eventSlice'
 
 export const store = configureStore({
   reducer: {
@@ -19,5 +19,6 @@ export const store = configureStore({
     users:usersReducer,
     counter2:counterReducer2,
     form:formReducer, 
+    event:eventReducer,
   },
 });
