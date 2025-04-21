@@ -5,6 +5,8 @@ import themeReducer from '../redux/themeSlice';
 import sliceReducer from '../redux/cartSlice';
 import authReducer from '../redux/authSlice';
 import usersReducer   from '../redux/userSlice';
+import counterReducer2 from '../redux/counterSliceNangCao';
+
 
 export const store = configureStore({
   reducer: {
@@ -14,5 +16,6 @@ export const store = configureStore({
     cart:sliceReducer,
     auth: authReducer,
     users:usersReducer,
+    counter2:counterReducer2,
   },
 });
