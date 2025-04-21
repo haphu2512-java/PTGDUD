@@ -1,12 +1,14 @@
 import React from 'react';
-import FormCalculator from './components/FormCalculator';
-import EventManager from './components/EventManager';
+import Login from './components/Login';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
 
 function App() {
   return (
-    <div>
-      <FormCalculator />
-      <EventManager />
+    <div style={{ padding: '20px' }}>
+      <Login />
+      <ProductList />
+      <Cart />
     </div>
   );
 }

@@ -8,6 +8,7 @@ import usersReducer   from '../redux/userSlice';
 import counterReducer2 from '../redux/counterSliceNangCao';
 import formReducer from '../redux/formSlice';
 import eventReducer from '../redux/eventSlice'
+import productReducer from '../redux/productSlice'
 
 export const store = configureStore({
   reducer: {
@@ -20,5 +21,6 @@ export const store = configureStore({
     counter2:counterReducer2,
     form:formReducer, 
     event:eventReducer,
+    product: productReducer,
   },
 });
